@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Amadi Masuev - Fullstack-utvikler og VG1 IT-elev. Se mine prosjekter innen React, TypeScript, Vanilla JS og mer." />
+    <title>Amadi Masuev - Fullstack-utvikler</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">Amadi Masuev</a>
+                <button class="burger-btn" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <nav class="nav-menu">
+                    <a href="index.html" class="nav-link active">Hjem</a>
+                    <a href="about.html" class="nav-link">Om meg</a>
+                    <a href="contact.html" class="nav-link">Kontakt</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Amadi Masuev</h1>
+                <p class="hero-subtitle">Fullstack-utvikler | VG1 IT-elev</p>
+                <p class="hero-description">
+                    Jeg bygger moderne webapplikasjoner med React, TypeScript og Node.js.
+                    Se gjennom mine prosjekter nedenfor.
+                </p>
+            </div>
+        </section>
+
+        <section class="filters-section">
+            <div class="container">
+                <div class="filters">
+                    <button class="filter-btn active" data-filter="alle">Alle</button>
+                    <button class="filter-btn" data-filter="react">React</button>
+                    <button class="filter-btn" data-filter="vanilla">Vanilla JS</button>
+                    <button class="filter-btn" data-filter="landingsside">Landingssider</button>
+                    <button class="filter-btn" data-filter="fullstack">Fullstack</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects-section">
+            <div class="container">
+                <div class="projects-grid">
+                    <!-- Prosjekter genereres via JavaScript -->
+                </div>
+                <div class="pagination">
+                    <!-- Paginering genereres via JavaScript -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Amadi Masuev</p>
+                <div class="footer-links">
+                    <a href="https://github.com/MARBORZ" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://www.linkedin.com/in/amadi-masuev-b8516b363/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="https://marborz.one" target="_blank" rel="noopener noreferrer">Portfolio</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/index.js" type="module"></script>
+</body>
+</html>
